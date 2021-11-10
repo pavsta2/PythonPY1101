@@ -1,8 +1,8 @@
 from itertools import count
 
 def func_(list_) -> list:
-    counter_index = count(1,1)
-    enumer_new = zip(counter_index, list_)
+    #counter_index = count(1,1)
+    enumer_new = zip(count(1,1), list_)
 
     return list(enumer_new)
 
