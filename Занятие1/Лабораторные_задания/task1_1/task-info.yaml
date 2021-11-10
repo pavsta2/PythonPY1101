@@ -1,18 +1,26 @@
 type: output
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    [12, 14, 3, 5, 255, 682]
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 223
-    length: 75
+    length: 26
     placeholder_text: '...  # TODO c помощью функции map привести каждый элемент списка
       к типу int'
     initial_state:
       length: 75
       offset: 223
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: list(map(int, num_list))
   text: |
     def task() -> list:
@@ -31,13 +39,8 @@ files:
     if __name__ == "__main__":
         print(task())
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    [12, 14, 3, 5, 255, 682]
-  learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 10 Nov 2021 17:00:23 UTC
 record: -1
