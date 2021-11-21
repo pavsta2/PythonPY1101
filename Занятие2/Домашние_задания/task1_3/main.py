@@ -19,6 +19,8 @@ def sub_list_gen(src_list: list, k: int):
 
 
 
+
 if __name__ == "__main__":
-    for sub_list in sub_list_gen([1, 2, 3, 4, 5, 6, 7, 8], 4):
+    for sub_list in sub_list_gen([1, 2, 3, 4, 5, 6, 7, 8], 3):
         print(sub_list)
+
