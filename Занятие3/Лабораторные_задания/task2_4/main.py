@@ -3,9 +3,10 @@ import json
 
 def task():
     filename = "input.json"
-    # TODO считать содержимое JSON файла
+    with open(filename) as f:
+        dict_p = json.load(f)
 
-    gen_exr = ...  # TODO записать выражение-генератор возвращающее значение по ключу contains_improvement_appeals
+    gen_exr = (item["contains_improvement_appeals"] for item in dict_p)  # TODO записать выражение-генератор возвращающее значение по ключу contains_improvement_appeals
     return sum(gen_exr)
 
 

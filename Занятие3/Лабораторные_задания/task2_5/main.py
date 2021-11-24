@@ -12,4 +12,4 @@ def task():
 
 if __name__ == "__main__":
     result = task()
-    print(f"{result:.3f}")
+    print(f"{result:.2f}")

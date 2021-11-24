@@ -22,3 +22,7 @@ if __name__ == "__main__":
     ]
     print(tasr(pts))
     print(tasr_2(pts))
+
+    print(type(len_points(pts)))
+    print(next(len_points(pts)))
+    print(next(len_points(pts)))
