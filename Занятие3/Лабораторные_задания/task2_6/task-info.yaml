@@ -13,7 +13,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: 'sorted(json_data, key=lambda item: item["length"])'
-  - offset: 302
+  - offset: 399
     length: 58
     placeholder_text: '# TODO дополнительно записать отсортированный список в JSON
       файл'
@@ -285,8 +285,11 @@ files:
       }
     ]
   learner_created: false
+- name: output.json
+  visible: true
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 24 Nov 2021 18:00:42 UTC
+  time: Wed, 24 Nov 2021 18:10:52 UTC
 record: -1
