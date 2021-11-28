@@ -13,5 +13,14 @@ files:
 - name: tests/output.txt
   visible: false
   learner_created: false
+- name: input2
+  visible: true
+  learner_created: true
+- name: input1
+  visible: true
+  learner_created: true
+- name: output
+  visible: true
+  learner_created: true
 status: Unchecked
 record: -1

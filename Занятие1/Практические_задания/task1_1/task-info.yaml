@@ -16,11 +16,11 @@ files:
     placeholder_text: '[get_distance(point) for point in points]  # TODO записать
       через map'
     initial_state:
-      length: 68
-      offset: 134
+      length: 48
+      offset: 127
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Failed
     encrypted_possible_answer: list(map(get_distance, points))
   text: |
     def get_distance(point: tuple) -> int:
@@ -41,8 +41,17 @@ files:
 
         print(task(pts))
   learner_created: false
-status: Solved
+status: Failed
 feedback:
-  message: Congratulations!
-  time: Sun, 21 Nov 2021 18:33:28 UTC
+  message: Incorrect
+  time: Sun, 21 Nov 2021 18:41:18 UTC
+  expected: |
+    [5.408326913195984, 2.3259406699226015, 7.432361670424818, 3.2202484376209237]
+  actual: |
+    4.5
+    2.1
+    6.8
+    1.4
+    [5.408326913195984, 2.3259406699226015, 7.432361670424818, 3.2202484376209237]
+    (2.1, -1)
 record: -1
