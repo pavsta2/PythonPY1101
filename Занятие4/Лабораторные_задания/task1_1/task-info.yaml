@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 60
-    length: 152
+    length: 140
     placeholder_text: '...  # TODO записать ругулярное выражения для поиска книги'
     initial_state:
       length: 58
