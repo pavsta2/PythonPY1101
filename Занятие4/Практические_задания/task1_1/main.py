@@ -12,10 +12,11 @@ def task():
         "123, fewfew",
     ]
 
-    word_pattern = re.compile(...)  # TODO записать регулярное выражение для поиска слова любой длины
+    word_pattern = re.compile(r"\w+")  #записать регулярное выражение для поиска слова любой длины
 
     for word in word_list:
-        print(word_pattern)  # TODO вызвать от регулярного выражения методы search и group
+        # print(re.search(r"\w+", word))
+        print(word_pattern.search(word).group())  #вызвать от регулярного выражения методы search и group
 
 
 if __name__ == "__main__":
