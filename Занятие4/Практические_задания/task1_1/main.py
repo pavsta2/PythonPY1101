@@ -15,8 +15,8 @@ def task():
     word_pattern = re.compile(r"\w+")  #записать регулярное выражение для поиска слова любой длины
 
     for word in word_list:
-        # print(re.search(r"\w+", word))
-        print(word_pattern.search(word).group())  #вызвать от регулярного выражения методы search и group
+        print(re.search(r"\w+", word))
+        # print(word_pattern.search(word).group())  #вызвать от регулярного выражения методы search и group
 
 
 if __name__ == "__main__":
